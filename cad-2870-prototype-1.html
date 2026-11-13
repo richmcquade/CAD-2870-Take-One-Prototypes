@@ -1854,6 +1854,34 @@ html&gt;body{padding:0}&lt;/style&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
+  &lt;div class=&quot;cad-plan&quot; aria-label=&quot;Fourth response plan with a nested Take Many group and send greater than four minutes&quot;&gt;
+    &lt;div class=&quot;cad-primary-line&quot;&gt;
+      &lt;span class=&quot;cad-expand&quot; aria-hidden=&quot;true&quot;&gt;−&lt;/span&gt;
+      &lt;div class=&quot;cad-group&quot;&gt;
+        &lt;span class=&quot;cad-group-name&quot;&gt;Take Many:&lt;/span&gt;
+        &lt;span class=&quot;cad-resource&quot;&gt;(U) Call Location Station Medic&lt;/span&gt;
+        &lt;span class=&quot;cad-separator&quot; aria-hidden=&quot;true&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;cad-resource&quot;&gt;(U) Call Location Jurisdiction Medic&lt;/span&gt;
+        &lt;div class=&quot;cad-group cad-nested-group&quot; role=&quot;group&quot; aria-label=&quot;Take Many with send greater than four minutes&quot;&gt;
+          &lt;span class=&quot;cad-group-name&quot;&gt;Take Many:&lt;/span&gt;
+          &lt;span class=&quot;cad-delta&quot; data-tooltip=&quot;Send greater than: 00:04:00&quot; aria-label=&quot;Group send greater than four minutes&quot;&gt;(&amp;gt;00:04:00)&lt;/span&gt;
+          &lt;span class=&quot;cad-resource&quot;&gt;(C) Call Location Jurisdiction Advanced Life Support (Possible)&lt;/span&gt;
+          &lt;span class=&quot;cad-separator&quot; aria-hidden=&quot;true&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;cad-resource cad-selected-resource&quot;&gt;(C) Transport (Possible)&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;cad-backup-line&quot;&gt;
+      &lt;span class=&quot;cad-connector&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+      &lt;span class=&quot;cad-backup-delta cad-backup-x&quot; aria-label=&quot;Backup group red X indicator&quot;&gt;&lt;i data-lucide=&quot;x&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/span&gt;
+      &lt;div class=&quot;cad-group cad-backup-group&quot;&gt;
+        &lt;span class=&quot;cad-group-name&quot;&gt;Take Many:&lt;/span&gt;
+        &lt;span class=&quot;cad-resource&quot;&gt;(C) Call Location Jurisdiction Basic Life Support (Never)&lt;/span&gt;
+        &lt;span class=&quot;cad-separator&quot; aria-hidden=&quot;true&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;cad-resource&quot;&gt;(U) Medic&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;style&gt;
 #cad-inline-delta-preview{padding:24px 12px;}
@@ -1874,6 +1902,8 @@ html&gt;body{padding:0}&lt;/style&gt;
 #cad-inline-delta-preview .cad-backup-x svg{width:12px;height:12px;stroke-width:3;}
 #cad-inline-delta-preview .cad-selected-group{background:var(--cad-selection);}
 #cad-inline-delta-preview .cad-backup-group{background:var(--cad-paper);}
+#cad-inline-delta-preview .cad-selected-resource{background:var(--cad-selection);}
+#cad-inline-delta-preview .cad-nested-group{gap:4px;padding:4px;max-width:100%;box-sizing:border-box;}
 @media(max-width:520px){#cad-inline-delta-preview{padding:18px 4px;}#cad-inline-delta-preview .cad-backup-line{align-items:flex-start;flex-wrap:wrap;padding-left:8px;}#cad-inline-delta-preview .cad-backup-delta{margin-bottom:2px;}#cad-inline-delta-preview .cad-backup-group{margin-left:4px;}#cad-inline-delta-preview .cad-jurisdiction{gap:3px 10px;}}
 &lt;/style&gt;
 
